@@ -26,8 +26,6 @@
     font-size: 15px;
 }
 body {
-
-cursor:url(http://www.getmemed.org/ok.png);
-
+  cursor: url(http://getmemed.org/ok.ico), auto;
 }
 @font-face { font-family: Comic Sans Bold; src: url('Comic Sans Bold.ttf'); } 

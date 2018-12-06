@@ -26,6 +26,6 @@
     font-size: 15px;
 }
 body {
-  cursor: url(http://getmemed.org/okcursor.png), auto;
+  cursor: url(http://getmemed.org/ok.cur), auto;
 }
 @font-face { font-family: Comic Sans Bold; src: url('Comic Sans Bold.ttf'); } 

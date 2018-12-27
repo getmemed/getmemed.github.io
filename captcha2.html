@@ -8,23 +8,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="shortcut icon" type="image/png" href="/favicon-32x32.png"/>
 <link rel="shortcut icon" type="image/png" href="/ok.ico"/>
-<script type="text/javascript">
-      var onloadCallback = function() {
-        grecaptcha.render('captcha2', {
-          'sitekey' : '6LfICYUUAAAAAOd2hFDQGiEL0y3sIgpTAvvYlsVc'
-        });
-      };
-    </script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 <span class="medium">one more time, just to check</span>
 <form action="/captcha3.html" method="get">
       <div id="captcha2"></div>
+      <div class="g-recaptcha" data-sitekey="6LfICYUUAAAAAKw00irQ2WSTW3t4_a_cGI4-sOrd"></div>
       <br>
       <input type="submit" value="done" class="button">
     </form>
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-        async defer>
-    </script>
-
 </body>
